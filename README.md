@@ -1,2 +1,4 @@
 # sigma_2way_in_python
 簡單用python兩種方法寫sigma
+for.py是用for迴圈
+recursion.py是用function遞迴
