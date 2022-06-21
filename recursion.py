@@ -5,4 +5,4 @@ def sigma(n):
         return n + sigma(n+1)
 
 
-print(sigma())
+print(sigma(1))
