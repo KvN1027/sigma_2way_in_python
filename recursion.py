@@ -1,8 +1,6 @@
 def sigma(n):
-    if n == 100:
-        return 100
+    if n == 1:
+        return 1
     else:
-        return n + sigma(n+1)
-
-
-print(sigma(1))
+        return n + sigma(n-1)
+print(sigma(100))
